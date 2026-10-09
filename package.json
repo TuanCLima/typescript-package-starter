@@ -1,7 +1,7 @@
 {
   "name": "my-test-package",
   "version": "1.0.1",
-  "description": "A demo package",
+  "description": "TypeScript npm-package tooling example with dual-format builds, Vitest, export checks and Changesets",
   "scripts": {
     "build": "tsup",
     "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint && npm run test",
@@ -18,14 +18,14 @@
     "demo",
     "typescript"
   ],
-  "homepage": "https://github.com/tuanclima/my-test-package",
+  "homepage": "https://github.com/TuanCLima/typescript-package-starter",
   "bugs": {
-    "url": "https://github.com/tuanclima/my-test-package/issues"
+    "url": "https://github.com/TuanCLima/typescript-package-starter/issues"
   },
   "author": "Tuan Lima",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuanclima/my-test-package.git"
+    "url": "git+https://github.com/TuanCLima/typescript-package-starter.git"
   },
   "files": [
     "dist"
